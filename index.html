@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Templates</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <script>
+    var titles = [
+      "2124_vertex",
+      "hostit",
+      "Bricker_Free_Website_Template html",
+      "Namari_Free_Website_Template  mico",
+      "carint_html",
+      "mobile-app-html-templat2",
+      "carpenter_website_template",
+      "mobile-app-html-template",
+      "chocolux_html",
+      "photosec",
+      "digian_html",
+      "preschool_website",
+      "digitala_gency_html_template",
+      "primecare",
+      "edgecut_html",
+      "real_estate_html",
+      "electrochip_html",
+      "rent4u",
+      "esigned",
+      "settle",
+      "finter",
+      "shapel",
+      "fonicy",
+      "templatemo",
+      "giftos",
+      "troweld",
+      "guarder",
+      "yoga",
+      "handtime",
+      "yogast",
+      "2120_ben_resume",
+      "2121_wave_cafe",
+      "2122_nano_folio",
+      "2rings-html",
+      "4uhost-html",
+      "Atlas",
+      "One-Page-Portfolio-Template-master",
+      "adpitor-html",
+      "apollo-master",
+      "avocado",
+      "bitcypo-html",
+      "bliss-html",
+      "bluene-html",
+      "bootstrap-restaurant-template",
+      "brainwave-html",
+      "brighton-html",
+      "cake-shop-website-template",
+      "car-repair-html-template",
+      "carta",
+      "cctv-website-template",
+      "chippewa",
+      "construction-company-website-template-free",
+      "consultancy-website-template",
+      "covido-html",
+      "creative-studio",
+      "cryptop-html",
+      "dental-clinic-website-template",
+      "diffuso-html",
+      "digitalex-html",
+      "digitf-html",
+      "dorang",
+      "drool-html",
+      "elearning-html-template",
+      "energym-html",
+      "evonyee",
+      "free-plumbing-website-template",
+      "fregg-html",
+      "global-master",
+      "goid-html",
+      "gym-html-template",
+      "hightech-html",
+      "honey-html",
+      "hospital-website-template",
+      "hotel-html-template",
+      "html_1",
+      "html_10",
+      "html_11",
+      "html_12",
+      "html_13",
+      "html_14",
+      "html_15",
+      "html_16",
+      "html_17",
+      "html_18",
+      "html_19",
+      "html_2",
+      "html_20",
+      "html_21",
+      "html_22",
+      "html_23",
+      "html_24",
+      "html_25",
+      "html_26",
+      "html_27",
+      "html_28",
+      "html_29",
+      "html_3",
+      "html_30",
+      "html_31",
+      "html_32",
+      "html_33",
+      "html_4",
+      "html_5",
+      "html_6",
+      "html_7",
+      "html_8",
+      "html_9",
+      "huddle",
+      "industrial-html",
+      "joeblog",
+      "lodge-html",
+      "maker",
+      "meetup",
+      "meyawo",
+      "mical-html",
+      "microo-html",
+      "milina-html",
+      "moto-html",
+      "ninom-html",
+      "organic-farm-website-template",
+      "painting-company-website-template",
+      "pet-shop-website-template",
+      "potoub-html",
+      "pro-html",
+      "rhino-html",
+      "seo-agency-website-template",
+      "seotech-html",
+      "startup-website-template",
+      "steller",
+      "teaser-html",
+      "templatemo_561_purple_buzz",
+      "templatemo_562_space_dynamic",
+      "templatemo_563_seo_dream",
+      "templatemo_564_plot_listing",
+      "templatemo_565_onix_digital",
+      "templatemo_566_medic_care",
+      "templatemo_567_nomad_force",
+      "templatemo_568_digimedia",
+      "templatemo_569_edu_meeting",
+      "travel-agency-html-template",
+      "viking",
+      "web-hosting-html-template",
+      "zon-html"
+    
+    ];
+
+    var imageSrcs = ["img1.png",
+     "img2.png",
+     "img3.png",
+     "img4.png",
+     "img5.png",
+     "img6.png",
+     "img7.png",
+     "img8.png",
+     "img9.png",
+    
+    
+    ];
+
+    var links = [
+      "2124_vertex/index.html",
+      "hostit/index.html",
+      "Bricker_Free_Website_Template/index.html",
+      "html/index.html",
+      "mico/index.html",
+      "Namari_Free_Website_Template/index.html",
+      "carint_html/index.html",
+      "mobile-app-html-templat2/index.html",
+      "carpenter_website_template/index.html",
+      "mobile-app-html-template/index.html",
+      "chocolux_html/index.html",
+      "photosec/index.html",
+      "digian_html/index.html",
+      "preschool_website/index.html",
+      "digitala_gency_html_template/index.html",
+      "primecare/index.html",
+      "edgecut_html/index.html",
+      "real_estate_html/index.html",
+      "electrochip_html/index.html",
+      "rent4u/index.html",
+      "esigned/index.html",
+      "settle/index.html",
+      "finter/index.html",
+      "shapel/index.html",
+      "fonicy/index.html",
+      "templatemo/index.html",
+      "giftos/index.html",
+      "troweld/index.html",
+      "guarder/index.html",
+      "yoga/index.html",
+      "handtime/index.html",
+      "yogast/index.html",
+      "2120_ben_resume/index.html",
+  "2121_wave_cafe/index.html",
+  "2122_nano_folio/index.html",
+  "2rings-html/index.html",
+  "4uhost-html/index.html",
+  "Atlas/index.html",
+  "One-Page-Portfolio-Template-master/index.html",
+  "adpitor-html/index.html",
+  "apollo-master/index.html",
+  "avocado/index.html",
+  "bitcypo-html/index.html",
+  "bliss-html/index.html",
+  "bluene-html/index.html",
+  "bootstrap-restaurant-template/index.html",
+  "brainwave-html/index.html",
+  "brighton-html/index.html",
+  "cake-shop-website-template/index.html",
+  "car-repair-html-template/index.html",
+  "carta/index.html",
+  "cctv-website-template/index.html",
+  "chippewa/index.html",
+  "construction-company-website-template-free/index.html",
+  "consultancy-website-template/index.html",
+  "covido-html/index.html",
+  "creative-studio/index.html",
+  "cryptop-html/index.html",
+  "dental-clinic-website-template/index.html",
+  "diffuso-html/index.html",
+  "digitalex-html/index.html",
+  "digitf-html/index.html",
+  "dorang/index.html",
+  "drool-html/index.html",
+  "elearning-html-template/index.html",
+  "energym-html/index.html",
+  "evonyee/index.html",
+  "free-plumbing-website-template/index.html",
+  "fregg-html/index.html",
+  "global-master/index.html",
+  "goid-html/index.html",
+  "gym-html-template/index.html",
+  "hightech-html/index.html",
+  "honey-html/index.html",
+  "hospital-website-template/index.html",
+  "hotel-html-template/index.html",
+  "html_1/index.html",
+  "html_10/index.html",
+  "html_11/index.html",
+  "html_12/index.html",
+  "html_13/index.html",
+  "html_14/index.html",
+  "html_15/index.html",
+  "html_16/index.html",
+  "html_17/index.html",
+  "html_18/index.html",
+  "html_19/index.html",
+  "html_2/index.html",
+  "html_20/index.html",
+  "html_21/index.html",
+  "html_22/index.html",
+  "html_23/index.html",
+  "html_24/index.html",
+  "html_25/index.html",
+  "html_26/index.html",
+  "html_27/index.html",
+  "html_28/index.html",
+  "html_29/index.html",
+  "html_3/index.html",
+  "html_30/index.html",
+  "html_31/index.html",
+  "html_32/index.html",
+  "html_33/index.html",
+  "html_4/index.html",
+  "html_5/index.html",
+  "html_6/index.html",
+  "html_7/index.html",
+  "html_8/index.html",
+  "html_9/index.html",
+  "huddle/index.html",
+  "industrial-html/index.html",
+  "joeblog/index.html",
+  "lodge-html/index.html",
+  "maker/index.html",
+  "meetup/index.html",
+  "meyawo/index.html",
+  "mical-html/index.html",
+  "microo-html/index.html",
+  "milina-html/index.html",
+  "moto-html/index.html",
+  "ninom-html/index.html",
+  "organic-farm-website-template/index.html",
+  "painting-company-website-template/index.html",
+  "pet-shop-website-template/index.html",
+  "potoub-html/index.html",
+  "pro-html/index.html",
+  "rhino-html/index.html",
+  "seo-agency-website-template/index.html",
+  "seotech-html/index.html",
+  "startup-website-template/index.html",
+  "steller/index.html",
+  "teaser-html/index.html",
+  "templatemo_561_purple_buzz/index.html",
+  "templatemo_562_space_dynamic/index.html",
+  "templatemo_563_seo_dream/index.html",
+  "templatemo_564_plot_listing/index.html",
+  "templatemo_565_onix_digital/index.html",
+  "templatemo_566_medic_care/index.html",
+  "templatemo_567_nomad_force/index.html",
+  "templatemo_568_digimedia/index.html",
+  "templatemo_569_edu_meeting/index.html",
+  "travel-agency-html-template/index.html",
+  "viking/index.html",
+  "web-hosting-html-template/index.html",
+  "zon-html/index.html"
+    ];
+    // var descriptions = [
+    //   "Generators on the Internet tend to repeat predefined chunks as necessary",
+    //   "Another description for the  item",
+    // ];
+  </script>
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>Our Services</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <script>
+          for (var i = 0; i < titles.length; i++) {
+            document.write(`
+						<div class="col-md-6 col-lg-4">
+							<div class="card">
+								<div class="card-img" style="background-image: url('images/${imageSrcs[i]}');"></div>
+								<div class="card-details">
+									<h4>${titles[i]}</h4>
+									<a href="/Resources/${links[i]}" class="read-more">Read More</a>
+								</div>
+							</div>
+						</div>`);
+          }
+        </script>
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p> &copy; <span id="displayYear"></span> All Rights Reserved By <a href="https://html.design/">Free Html
+          Templates</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
